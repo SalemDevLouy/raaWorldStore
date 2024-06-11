@@ -29,13 +29,13 @@ export default function Navbar() {
               <a className="text-gray-500 transition hover:text-primary" href="#ourServicrs"> خدماتنا </a>
             </li>
 
-            <li>
-              <a className="text-gray-500 transition hover:text-primary" href="#">  عنا </a>
-            </li>
-
-
+            
             <li>
               <a className="text-gray-500 transition hover:text-primary" href="#">  تواصل معنا </a>
+            </li>
+
+            <li>
+              <a className="text-gray-500 transition hover:text-primary" href="#">كل المنتجات</a>
             </li>
           </ul>
         </nav>

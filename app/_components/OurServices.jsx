@@ -3,7 +3,7 @@ import { ourServicesData } from './data'
 
 export default function OurServices() {
   return (
-<div className='flex flex-col md:flex-row-reverse items-center justify-center mt-16 gap-4 md:gap-10'>
+<div className='flex flex-col sm:flex-row-reverse items-center justify-center mt-16 gap-4 md:gap-10'>
 
 {ourServicesData.map((service,index)=>(
   <div key={index}
