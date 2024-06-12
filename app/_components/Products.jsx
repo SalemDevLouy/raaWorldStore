@@ -1,9 +1,10 @@
 import React from 'react'
+import Button from './button'
 
 export default function Products() {
   return (
-    <section >
-  <div className=" mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+    <section  className=' flex flex-col items-center '>
+  <div id='ourProducts' className=" mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
 
    
 
@@ -101,6 +102,7 @@ export default function Products() {
       </div>
     </div>
   </div>
+  <Button title='... المزيد ' styling='secondry' />
 </section>
   )
 }

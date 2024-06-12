@@ -25,14 +25,11 @@ export default function Footer() {
             </li>
 
             <li>
-              <a className="text-gray-500 transition hover:text-primary" href="#ourServicrs"> خدماتنا </a>
+              <a className="text-gray-500 transition hover:text-primary" href="#ourServices"> خدماتنا </a>
             </li>
-
             <li>
-              <a className="text-gray-500 transition hover:text-primary" href="#">  عنا </a>
+              <a className="text-gray-500 transition hover:text-primary" href="#ourProducts">  منتجاتنا</a>
             </li>
-
-
             <li>
               <a className="text-gray-500 transition hover:text-primary" href="#">  تواصل معنا </a>
             </li>

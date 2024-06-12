@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from './button'
 
 export default function Hero() {
   return (
@@ -17,17 +18,7 @@ export default function Hero() {
           . نهدف لتعزيز قيمة المنتجات اليدوية وإضفاء لمسة شخصية وفريدة على كل قطعة نصنعها.
           </p>
 
-          <div className="mt-4 md:mt-8 ">
-            <a
-              href="#"
-              className="inline-flex gap-2 rounded border border-white bg-secondry px-12 py-3 text-sm font-medium text-primary transition duration-500 hover:bg-transparent hover:text-white"
-            ><span aria-hidden="true" className="block transition-all group-hover:ms-0.5 rtl:rotate-180">&larr; </span>
-              اطلب الآن
-              
-      
-   
-            </a>
-          </div>
+          <Button title ='اطلب الآن' styling='primary'/>
         </div>
       </div>
       
