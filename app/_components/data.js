@@ -17,6 +17,26 @@ const ourServicesData = [
 ];
   
  
+const testimonials = [
+    {
+        image:'',
+        name:'درويش راضية',
+        desc:'سرعة في العمل و تصاميم جميلة جدا سعدت بالتعامل معكم كما اوصي بطلب الخدمات دون تردد'
+    },
+    {
+        image:'',
+        name:'نادي ريغا',
+        desc:'سعداء جدا بالتعامل معها جودة خدماتها زادت من انتاجية الفريق و جزءا مهما في تحقيق اهدافنا'
+    },
+    {
+        image:'////',
+        name:'////',
+        desc:'////'
+    }
+    
+];
   
-  export {ourServicesData};
+ 
+  
+  export {ourServicesData,testimonials};
   

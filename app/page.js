@@ -15,6 +15,7 @@ export default function Home() {
       <Products/>
       <Section title="تقييمات عملائنا " desc="هنا بعضا من تقييمات العملاء بعد التعامل معنا"/>
       <Reviews/>
+      <Section title="تواصل معنا" desc="تواصل معنا للاستفسار و طلب خدماتنا عبر وسائل التواصل التالية"/>
     </main>
   );
 }

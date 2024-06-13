@@ -1,17 +1,23 @@
 import React from 'react'
 import Image from 'next/image'
+import { testimonials } from './data';
 export default function Reviews() {
   const starCounter = 5;
   return (
+
+    
     <div className="bg-white">
   <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
     
     <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">
-      <blockquote className="rounded-lg bg-secondry p-6 sm:p-8 shadow-md">
+
+      {testimonials.map((review,index)=>(
+           
+          <blockquote key={index} className="rounded-lg bg-secondry p-6 sm:p-8 shadow-md">
         <div className="flex flex-row-reverse text-right items-center gap-4">
           <img
-            alt=""
-            src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+            alt={review.name}
+            src={review.image}
             className="size-14 rounded-full object-cover"
           />
 
@@ -70,58 +76,16 @@ export default function Reviews() {
                 </svg>
             </div>
 
-            <p className="mt-0.5 text-lg font-medium text-primary">راضية درويش</p>
+            <p className="mt-0.5 text-lg font-medium text-primary">{review.name}</p>
           </div>
         </div>
 
         <p className="mt-4 text-gray-700 text-right">
-          سرعة في العمل و تصاميم جميلة جدا سعدت بالتعامل معكم كما اوصي بطلب الخدمات دون تردد
+          {review.desc}
         </p>
       </blockquote>
-      <blockquote className="rounded-lg bg-secondry p-6 sm:p-8 shadow-md">
-        <div className="flex flex-row-reverse text-right items-center gap-4">
-          <img
-            alt=""
-            src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
-            className="size-14 rounded-full object-cover"
-          />
-
-          <div>
-            <div className="flex justify-center gap-0.5 text-green-500">
-              {/* {starts} */}
-              
-            </div>
-
-            <p className="mt-0.5 text-lg font-medium text-primary">راضية درويش</p>
-          </div>
-        </div>
-
-        <p className="mt-4 text-gray-700 text-right">
-          سرعة في العمل و تصاميم جميلة جدا سعدت بالتعمامل معكم كما اوصي بطلب الخدمات دون تردد
-        </p>
-      </blockquote>
-      <blockquote className="rounded-lg bg-secondry p-6 sm:p-8 shadow-md">
-        <div className="flex flex-row-reverse text-right items-center gap-4">
-          <img
-            alt=""
-            src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
-            className="size-14 rounded-full object-cover"
-          />
-
-          <div>
-            <div className="flex justify-center gap-0.5 text-green-500">
-              {/* {starts} */}
-              
-            </div>
-
-            <p className="mt-0.5 text-lg font-medium text-primary">راضية درويش</p>
-          </div>
-        </div>
-
-        <p className="mt-4 text-gray-700 text-right">
-          سرعة في العمل و تصاميم جميلة جدا سعدت بالتعمامل معكم كما اوصي بطلب الخدمات دون تردد
-        </p>
-      </blockquote>
+          ))}
+      
 
       
     </div>
