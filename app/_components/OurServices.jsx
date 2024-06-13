@@ -1,9 +1,13 @@
 import React from 'react'
 import { ourServicesData } from './data'
+import Section from './Section'
 
 export default function OurServices() {
   return (
-<div id='ourServices' className='flex flex-col sm:flex-row-reverse items-center justify-center mt-16 gap-4 md:gap-10'>
+    <div id='ourServices'>
+      <Section title="خدماتنا" desc="خدماتنا عديدة و مميزة و كما تمتاز بجودة عالية عن منافسينا"/>
+      
+<div  className='flex flex-col sm:flex-row-reverse items-center justify-center mt-16 gap-4 md:gap-10'>
 
 {ourServicesData.map((service,index)=>(
   <div key={index}
@@ -43,6 +47,7 @@ export default function OurServices() {
   </p>
 </div>
 ))}
+</div>
 </div>
 
   )

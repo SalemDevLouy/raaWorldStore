@@ -36,7 +36,59 @@ const testimonials = [
     
 ];
   
+const productsData = [
+    {
+        image:'',
+        title:'درويش راضية',
+        desc:'********************************'
+    },
+    {
+        image:'',
+        title:'نادي ريغا',
+        desc:'********************************'
+    },
+    {
+        image:'////',
+        title:'////',
+        desc:'********************************'
+    }
+    
+];
+
+const contactUsData = [
+    {
+        image:'',
+        socielmedia:'facebook',
+        color:'#',
+        link:'/',
+        contactData:''
+    },
+    {
+        image:'',
+        socielmedia:'instagram',
+        color:'#',
+        link:'/',
+        contactData:''
+    },
+    {
+        image:'',
+        socielmedia:'whatsapp',
+        color:'#',
+        link:'/',
+        contactData:''
+    },
+    {
+        image:'',
+        socielmedia:'gmail',
+        color:'#',
+        link:'/',
+        contactData:''
+    },
+    
+    
+];
+  
  
   
-  export {ourServicesData,testimonials};
+  export {ourServicesData,testimonials,productsData};
   

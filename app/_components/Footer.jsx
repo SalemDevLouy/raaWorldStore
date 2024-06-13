@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-100">
+    <footer className="bg-gray-100 mt-6">
   <div className="mx-auto max-w-5xl px-4 pt-8 sm:px-6 lg:px-8">
     <div className="flex justify-center text-teal-600">
     <Image
@@ -75,11 +75,10 @@ export default function Footer() {
       
     </ul>
     <div className="my-10 border-t-2 border-primary p-2 text-sm text-center text-gray-600 dark:text-gray-400">
-          Copyright ©. All right reserved by{" "}
+          Raa {new Date().getFullYear()} | All right reserved by{" "}
           <a href="/" target="_blank" rel="noopener" className='text-primary'>
-            Louafi Salem 
+            Louafi Salem © 
           </a>
-          , {new Date().getFullYear()}
         </div>
   </div>
 </footer>
