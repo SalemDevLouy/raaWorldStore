@@ -38,10 +38,10 @@ export default function Footer() {
     <ul className="mt-12 flex justify-center gap-6 md:gap-8">
       <li>
         <a
-          href="#"
+          href="https://www.facebook.com/profile.php?id=100086370559469"
           rel="noreferrer"
           target="_blank"
-          className="text-gray-700 transition hover:text-gray-700/75"
+          className="text-gray-700 transition hover:text-primary duration-500"
         >
           <span className="sr-only">Facebook</span>
           <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -59,7 +59,7 @@ export default function Footer() {
           href="#"
           rel="noreferrer"
           target="_blank"
-          className="text-gray-700 transition hover:text-gray-700/75"
+          className="text-gray-700 transition hover:text-primary duration-500"
         >
           <span className="sr-only">Instagram</span>
           <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">

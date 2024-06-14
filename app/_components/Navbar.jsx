@@ -45,7 +45,7 @@ export default function Navbar() {
       <ul className=" flex justify-center gap-6 md:gap-8">
       <li>
         <a
-          href="#"
+          href="https://www.facebook.com/profile.php?id=100086370559469"
           rel="noreferrer"
           target="_blank"
           className="text-gray-500 transition hover:text-primary duration-500"

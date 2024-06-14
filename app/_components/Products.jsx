@@ -7,7 +7,7 @@ export default function Products() {
     <div id='ourProducts'>
       <Section title="منتجاتنا" desc="تصفح منتجاتنا و اختر الهدية المناسبة" />
     <div  className=' flex flex-col items-center '>
-  <div className=" mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+  <div className=" mx-auto max-w-fit py-8 sm:px-6 sm:py-12 lg:px-8">
 
    
 
