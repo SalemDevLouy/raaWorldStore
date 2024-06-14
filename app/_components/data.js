@@ -65,7 +65,8 @@ const contactUsData = [
         socielmedia:'facebook',
         color:'#1877f2',
         link:'https://www.facebook.com/profile.php?id=100086370559469',
-        userName:'Raa World-عالم راء'
+        userName:'Raa World-عالم راء',
+        messaging:'https:/m.me/100086370559469'
     },
     {
         pathsvg:<path
@@ -75,8 +76,9 @@ const contactUsData = [
       />,
         socielmedia:'instagram',
         color:'#c32aa3',
-        link:'https://www.instagram.com/raa.world1/?igsh=MWZsNDRncmRwYTl1eg%3D%3D',
-        userName:'raa.World1'
+        link:'https://www.instagram.com/raa.world1',
+        userName:'raa.World1',
+        messaging:'https://ig.me/m/raa.world1'
     },
     {
         pathsvg:<path
@@ -87,8 +89,9 @@ const contactUsData = [
 
         socielmedia:'whatsapp',
         color:'#25d366',
-        link:'/',
-        userName:'+2136*********'
+        link:'https://api.whatsapp.com/send?phone=213656585793',
+        userName:'+213656585793',
+        messaging:'https://wa.me/213656585793'
     } 
 ];
   
