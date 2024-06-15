@@ -38,22 +38,133 @@ const testimonials = [
   
 const productsData = [
     {
-        image:'',
-        title:'درويش راضية',
-        desc:'********************************'
+        image: '/assets/products/01.jpg',
+        title: 'Product Title 1',
+        desc: 'This is the description for product 1.'
     },
     {
-        image:'',
-        title:'نادي ريغا',
-        desc:'********************************'
+        image: '/assets/products/02.jpg',
+        title: 'Product Title 2',
+        desc: 'This is the description for product 2.'
     },
     {
-        image:'////',
-        title:'////',
-        desc:'********************************'
+        image: '/assets/products/03.jpg',
+        title: 'Product Title 3',
+        desc: 'This is the description for product 3.'
+    },
+    {
+        image: '/assets/products/04.jpg',
+        title: 'Product Title 4',
+        desc: 'This is the description for product 4.'
+    },
+    {
+        image: '/assets/products/05.jpg',
+        title: 'Product Title 5',
+        desc: 'This is the description for product 5.'
+    },
+    {
+        image: '/assets/products/06.jpg',
+        title: 'Product Title 6',
+        desc: 'This is the description for product 6.'
+    },
+    {
+        image: '/assets/products/07.jpg',
+        title: 'Product Title 7',
+        desc: 'This is the description for product 7.'
+    },
+    {
+        image: '/assets/products/08.jpg',
+        title: 'Product Title 8',
+        desc: 'This is the description for product 8.'
+    },
+    {
+        image: '/assets/products/09.jpg',
+        title: 'Product Title 9',
+        desc: 'This is the description for product 9.'
+    },
+    {
+        image: '/assets/products/10.jpg',
+        title: 'Product Title 10',
+        desc: 'This is the description for product 10.'
+    },
+    {
+        image: '/assets/products/11.jpg',
+        title: 'Product Title 11',
+        desc: 'This is the description for product 11.'
+    },
+    {
+        image: '/assets/products/12.jpg',
+        title: 'Product Title 12',
+        desc: 'This is the description for product 12.'
+    },
+    {
+        image: '/assets/products/13.jpg',
+        title: 'Product Title 13',
+        desc: 'This is the description for product 13.'
+    },
+    {
+        image: '/assets/products/14.jpg',
+        title: 'Product Title 14',
+        desc: 'This is the description for product 14.'
+    },
+    {
+        image: '/assets/products/15.jpg',
+        title: 'Product Title 15',
+        desc: 'This is the description for product 15.'
+    },
+    {
+        image: '/assets/products/16.jpg',
+        title: 'Product Title 16',
+        desc: 'This is the description for product 16.'
+    },
+    {
+        image: '/assets/products/17.jpg',
+        title: 'Product Title 17',
+        desc: 'This is the description for product 17.'
+    },
+    {
+        image: '/assets/products/18.jpg',
+        title: 'Product Title 18',
+        desc: 'This is the description for product 18.'
+    },
+    {
+        image: '/assets/products/19.jpg',
+        title: 'Product Title 19',
+        desc: 'This is the description for product 19.'
+    },
+    {
+        image: '/assets/products/20.jpg',
+        title: 'Product Title 20',
+        desc: 'This is the description for product 20.'
+    },
+    {
+        image: '/assets/products/21.jpg',
+        title: 'Product Title 21',
+        desc: 'This is the description for product 21.'
+    },
+    {
+        image: '/assets/products/22.jpg',
+        title: 'Product Title 22',
+        desc: 'This is the description for product 22.'
+    },
+    {
+        image: '/assets/products/23.jpg',
+        title: 'Product Title 23',
+        desc: 'This is the description for product 23.'
+    },
+    {
+        image: '/assets/products/24.jpg',
+        title: 'Product Title 24',
+        desc: 'This is the description for product 24.'
+    },
+    {
+        image: '/assets/products/25.jpg',
+        title: 'Product Title 25',
+        desc: 'This is the description for product 25.'
     }
-    
 ];
+
+
 
 const contactUsData = [
     {

@@ -7,7 +7,7 @@ export default function
   return (
     <div id='contactUs' className='flex flex-col justify-center items-center'>
         <Section title="تواصل معنا" desc="تواصل معنا للاستفسار و طلب خدماتنا عبر وسائل التواصل التالية"/>
-        <div className='mt-8 grid w-[700px] mx-8 justify-items-center grid-cols-1 gap-4 sm:grid-cols-3 md:gap-2'>
+        <div className='mt-8 grid md:w-[700px] mx-8 justify-items-center grid-cols-1 gap-4 sm:grid-cols-3 md:gap-2'>
           {contactUsData.map((contact,index)=>(
               <div className="bg-secondry  w-[180px] max-w-sm border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
               
