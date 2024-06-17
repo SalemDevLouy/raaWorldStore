@@ -19,12 +19,12 @@ const ourServicesData = [
  
 const testimonials = [
     {
-        image:'',
+        image:'/assets/review01.jpg',
         name:'درويش راضية',
         desc:'سرعة في العمل و تصاميم جميلة جدا سعدت بالتعامل معكم كما اوصي بطلب الخدمات دون تردد'
     },
     {
-        image:'',
+        image:'/assets/righa.png',
         name:'نادي ريغا',
         desc:'سعداء جدا بالتعامل معها جودة خدماتها زادت من انتاجية الفريق و جزءا مهما في تحقيق اهدافنا'
     },
@@ -156,11 +156,6 @@ const productsData = [
         image: '/assets/products/24.jpg',
         title: 'Product Title 24',
         desc: 'This is the description for product 24.'
-    },
-    {
-        image: '/assets/products/25.jpg',
-        title: 'Product Title 25',
-        desc: 'This is the description for product 25.'
     }
 ];
 

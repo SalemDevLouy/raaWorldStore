@@ -19,13 +19,13 @@ export default function Products() {
             <li key={index}>
             <div className=" relative flex min-h-fil flex-col justify-center overflow-hidden bg-gray-50">
     <div className="absolute inset-0 bg-center dark:bg-black"></div>
-    <div className="group relative m-0 flex h-72 w-96 rounded-xl shadow-xl ring-gray-900/5 sm:mx-auto sm:max-w-lg">
-      <div className="z-10 h-full w-full overflow-hidden rounded-xl border border-gray-200 opacity-80 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70">
+    <div className="group relative m-0 flex h-96 w-72 rounded-xl shadow-xl ring-gray-900/5 sm:mx-auto sm:max-w-lg">
+      <div className="z-10 h-full w-full overflow-hidden rounded-xl border border-gray-200 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70">
         <img src={product.image} alt="" />
       </div>
-      <div className="text-right w-96 absolute bottom-0 right-0 z-20 m-0 bg-slate-400 pl-2 pr-8  pb-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110">
-        <h1 className="text-2xl font-semibold text-gray-50 ">{product.title}</h1>
-        <h1 className="text-sm font-light text-gray-200 ">{product.desc}</h1>
+      <div className="text-right w-72 absolute bottom-0 right-0 z-20 m-0 bg-secondry pl-2 pr-8  pb-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110">
+        <h1 className="text-2xl font-semibold text-primary ">{product.title}</h1>
+        <h1 className="text-sm font-light text-primary ">{product.desc}</h1>
       </div>
     </div>
   </div>
