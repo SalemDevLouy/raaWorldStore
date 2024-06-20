@@ -12,11 +12,11 @@ export default function Reviews() {
     <div className="bg-white">
   <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
     
-    <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">
+    <div className="mt-8 flex flex-col md:flex-row  justify-center items-center gap-16">
 
       {testimonials.map((review,index)=>(
            
-          <blockquote key={index} className="rounded-lg bg-secondry p-6 sm:p-8 shadow-md">
+          <blockquote key={index} className="rounded-lg bg-secondry w-[300px] h-[250px] p-6 sm:p-8 shadow-md hover:scale-105 duration-500">
         <div className="flex flex-row-reverse text-right items-center gap-4">
           <img
             alt={review.name}

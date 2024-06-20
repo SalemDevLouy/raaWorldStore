@@ -1,16 +1,20 @@
+import partyicon from '@/public/assets/celebration.svg';
+import planericon from '@/public/assets/calendar.svg';
+import certificateicon from '@/public/assets/license.svg';
+
 const ourServicesData = [
     {
-        icon:'',
+        icon:partyicon,
         title:'تصميم و انشاء توزيعات المناسبات',
         desc:'ميز احتفالك بديكورات و ابداعات يدوية جميلة '
     },
     {
-        icon:'',
+        icon:planericon,
         title:'تصميم و طباعة البلانرز و الدفاتر',
         desc:'نوفر لكم تصاميم رائعة لدفاتر مصنوعة خصيصا لكم لادراج خططكم اليومية و الشهرية او السنوية'
     },
     {
-        icon:'',
+        icon:certificateicon,
         title:'تصميم و طباعة الشهادات',
         desc:'كرم تلميذك او رفيقك بشهادة تعبر فيها عن امتنانك له '
     },
@@ -27,134 +31,113 @@ const testimonials = [
         image:'/assets/righa.png',
         name:'نادي ريغا',
         desc:'سعداء جدا بالتعامل معها جودة خدماتها زادت من انتاجية الفريق و جزءا مهما في تحقيق اهدافنا'
-    },
-    {
-        image:'////',
-        name:'////',
-        desc:'////'
     }
-    
 ];
   
 const productsData = [
     {
         image: '/assets/products/01.jpg',
-        title: 'Product Title 1',
-        desc: 'This is the description for product 1.'
+        title: 'هدايا للتلاميذ الممتازين',
+        desc: ''
     },
     {
         image: '/assets/products/02.jpg',
-        title: 'Product Title 2',
+        title: 'تغليف كتاب القرءان',
         desc: 'This is the description for product 2.'
     },
     {
         image: '/assets/products/03.jpg',
-        title: 'Product Title 3',
+        title: 'بلانرز للطلبة',
         desc: 'This is the description for product 3.'
     },
     {
         image: '/assets/products/04.jpg',
-        title: 'Product Title 4',
+        title: 'دعوات الزفاف',
         desc: 'This is the description for product 4.'
     },
     {
         image: '/assets/products/05.jpg',
-        title: 'Product Title 5',
+        title: 'بطاقة عمل (كارط فيزيت)',
         desc: 'This is the description for product 5.'
     },
     {
         image: '/assets/products/06.jpg',
-        title: 'Product Title 6',
+        title: 'توزيعات اخت العروس',
         desc: 'This is the description for product 6.'
     },
     {
         image: '/assets/products/07.jpg',
-        title: 'Product Title 7',
+        title: 'كادر عقد القران',
         desc: 'This is the description for product 7.'
     },
     {
         image: '/assets/products/08.jpg',
-        title: 'Product Title 8',
+        title: 'ديكورات حفلة توديع العزوبية',
         desc: 'This is the description for product 8.'
     },
     {
         image: '/assets/products/09.jpg',
-        title: 'Product Title 9',
+        title: 'هدايا المولد النبوي الشريف',
         desc: 'This is the description for product 9.'
     },
     {
         image: '/assets/products/10.jpg',
-        title: 'Product Title 10',
+        title: 'بلانرز الدراسة',
         desc: 'This is the description for product 10.'
     },
     {
         image: '/assets/products/11.jpg',
-        title: 'Product Title 11',
+        title: 'كادر عيد الميلاد',
         desc: 'This is the description for product 11.'
     },
     {
         image: '/assets/products/12.jpg',
-        title: 'Product Title 12',
+        title: 'توزيعات حفل التخرج',
         desc: 'This is the description for product 12.'
     },
     {
-        image: '/assets/products/13.jpg',
-        title: 'Product Title 13',
-        desc: 'This is the description for product 13.'
-    },
-    {
         image: '/assets/products/14.jpg',
-        title: 'Product Title 14',
+        title: 'كادر تكريم المتفوقين',
         desc: 'This is the description for product 14.'
     },
     {
         image: '/assets/products/15.jpg',
-        title: 'Product Title 15',
+        title: 'توزيعات حفل التخرج',
         desc: 'This is the description for product 15.'
     },
     {
         image: '/assets/products/16.jpg',
-        title: 'Product Title 16',
+        title: 'توزيعات العمرة',
         desc: 'This is the description for product 16.'
     },
     {
         image: '/assets/products/17.jpg',
-        title: 'Product Title 17',
+        title: 'توزيعات عيد الاضحى',
         desc: 'This is the description for product 17.'
     },
     {
         image: '/assets/products/18.jpg',
-        title: 'Product Title 18',
+        title: 'شهادات تهنئة',
         desc: 'This is the description for product 18.'
     },
     {
         image: '/assets/products/19.jpg',
-        title: 'Product Title 19',
+        title: 'بلانرز للأساتذة',
         desc: 'This is the description for product 19.'
     },
     {
         image: '/assets/products/20.jpg',
-        title: 'Product Title 20',
+        title: 'هدايا الخطوبة',
         desc: 'This is the description for product 20.'
     },
     {
-        image: '/assets/products/21.jpg',
-        title: 'Product Title 21',
-        desc: 'This is the description for product 21.'
-    },
-    {
-        image: '/assets/products/22.jpg',
-        title: 'Product Title 22',
-        desc: 'This is the description for product 22.'
-    },
-    {
         image: '/assets/products/23.jpg',
-        title: 'Product Title 23',
+        title: 'توزيعات حنة العروس',
         desc: 'This is the description for product 23.'
     },
     {
         image: '/assets/products/24.jpg',
-        title: 'Product Title 24',
+        title: 'هدايا المولود الجديد',
         desc: 'This is the description for product 24.'
     }
 ];

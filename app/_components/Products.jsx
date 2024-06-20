@@ -24,8 +24,8 @@ export default function Products() {
         <img src={product.image} alt="" />
       </div>
       <div className="text-right w-72 absolute bottom-0 right-0 z-20 m-0 bg-secondry pl-2 pr-8  pb-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110">
-        <h1 className="text-2xl font-semibold text-primary ">{product.title}</h1>
-        <h1 className="text-sm font-light text-primary ">{product.desc}</h1>
+        <h1 className="text-xl font-semibold text-primary pt-2">{product.title}</h1>
+        {/* <h1 className="text-sm font-light text-primary ">{product.desc}</h1> */}
       </div>
     </div>
   </div>
