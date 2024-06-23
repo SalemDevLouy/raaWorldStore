@@ -22,7 +22,7 @@ export default function Hero() {
         </div>
       </div>
       
-      <div className="grid lg:grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2 ">
+      <div className="grid lg:grid-cols-2 gap-4 md:grid-cols-1 ">
         <img
           alt=""
           src="/assets/products/01.jpg"
