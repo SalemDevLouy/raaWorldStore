@@ -19,16 +19,16 @@ export default function
                   <span className="text-sm text-gray-500 dark:text-gray-400">{contact.userName}</span>
                   {contact.socielmedia === 'whatsapp'?
                   <div className="flex mt-4 md:mt-6">
-                  <a href={contact.messaging} target='_blank' className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-primary rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">مراسلة</a>
+                  <a href={contact.messaging} target='_blank' className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-primary rounded-lg hover:scale-105 focus:ring-4 focus:outline-none focus:ring-blue-300 duration-500">مراسلة</a>
                   
                   </div>
                   :
                   <>
                   <div className="flex mt-4 md:mt-6">
-                  <a href={contact.link} target='_blank' className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-primary rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">زيارة الصفحة</a>
+                  <a href={contact.link} target='_blank' className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-primary rounded-lg hover:scale-105 focus:ring-4 focus:outline-none focus:ring-blue-300 duration-500">زيارة الصفحة</a>
                   </div>
                   <div className="flex mt-2">
-                      <a href={contact.messaging} target='_blank' className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-primary rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">مراسلة</a>  
+                      <a href={contact.messaging} target='_blank' className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-primary rounded-lg hover:scale-105 focus:ring-4 focus:outline-none focus:ring-blue-300 duration-500">مراسلة</a>  
                   </div>
                   </>
                   }
