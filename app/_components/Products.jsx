@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from './button'
 import { productsData } from './data'
 import Section from './Section'
 export default function Products() {
